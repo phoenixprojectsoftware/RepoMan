@@ -8,7 +8,7 @@ import { parseRemote } from '../../lib/remote-parsing'
 export const command: ICommandModule = {
   command: 'open <path>',
   aliases: ['<path>'],
-  description: 'Open a git repository in GitHub Desktop',
+  description: 'Open a git repository in PhoenixLink',
   args: [
     {
       name: 'path',
@@ -26,7 +26,7 @@ export const command: ICommandModule = {
     //Check if the pathArg is a remote url
     if (parseRemote(pathArg) != null) {
       console.log(
-        `\nYou cannot open a remote URL in GitHub Desktop\n` +
+        `\nYou cannot open a remote URL in PhoenixLink\n` +
           `Use \`${chalk.bold(`git clone ` + pathArg)}\`` +
           ` instead to initiate the clone`
       )

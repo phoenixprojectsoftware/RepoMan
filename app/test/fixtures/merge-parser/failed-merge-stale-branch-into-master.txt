@@ -252,7 +252,7 @@ added in remote
 +    "type": "git",
 +    "url": "https://github.com/desktop/desktop.git"
 +  },
-+  "description": "GitHub Desktop changelog dependencies",
++  "description": "PhoenixLink changelog dependencies",
 +  "author": {
 +    "name": "GitHub, Inc.",
 +    "email": "opensource+desktop@github.com",

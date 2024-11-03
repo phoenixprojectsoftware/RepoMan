@@ -1235,7 +1235,7 @@ added in remote
 +
 +    if (accountHasScope(account, 'write:public_key')) {
 +      const api = new API(account.endpoint, account.token)
-+      const title = 'GitHub Desktop on [MACHINE NAME GOES HERE]'
++      const title = 'PhoenixLink on [MACHINE NAME GOES HERE]'
 +      const keyContents = await readFile(publicKeyFile)
 +      const key = await api.createPublicKey(title, keyContents.toString())
 +      if (key == null) {
@@ -2166,7 +2166,7 @@ added in remote
 +            A trace file has been generated here that will help a human
 +            troubleshoot the issue. Please reach out to the{' '}
 +            <LinkButton uri="https://github.com/desktop/desktop/issues/new">
-+              GitHub Desktop
++              PhoenixLink
 +            </LinkButton>{' '}
 +            issue tracker for further support.
 +          </p>

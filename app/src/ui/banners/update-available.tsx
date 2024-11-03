@@ -53,11 +53,11 @@ export class UpdateAvailable extends React.Component<
     if (this.props.isX64ToARM64ImmediateAutoUpdate) {
       return (
         <span onSubmit={this.updateNow}>
-          An optimized version of GitHub Desktop is available for your{' '}
+          An optimized version of PhoenixLink is available for your{' '}
           {__DARWIN__ ? 'Apple silicon' : 'Arm64'} machine and will be installed
           at the next launch or{' '}
           <LinkButton onClick={this.updateNow}>
-            restart GitHub Desktop
+            restart PhoenixLink
           </LinkButton>{' '}
           now.
         </span>
@@ -67,7 +67,7 @@ export class UpdateAvailable extends React.Component<
     if (this.props.isUpdateShowcaseVisible) {
       const version =
         this.props.newReleases !== null
-          ? ` with GitHub Desktop ${this.props.newReleases[0].latestVersion}`
+          ? ` with PhoenixLink ${this.props.newReleases[0].latestVersion}`
           : ''
 
       return (
@@ -89,10 +89,10 @@ export class UpdateAvailable extends React.Component<
 
     return (
       <span onSubmit={this.updateNow}>
-        An updated version of GitHub Desktop is available and will be installed
+        An updated version of PhoenixLink is available and will be installed
         at the next launch. See{' '}
         <LinkButton onClick={this.showReleaseNotes}>what's new</LinkButton> or{' '}
-        <LinkButton onClick={this.updateNow}>restart GitHub Desktop</LinkButton>
+        <LinkButton onClick={this.updateNow}>restart PhoenixLink</LinkButton>
         .
       </span>
     )

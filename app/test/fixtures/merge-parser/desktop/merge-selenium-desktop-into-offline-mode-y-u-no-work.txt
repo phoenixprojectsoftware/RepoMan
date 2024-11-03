@@ -26,7 +26,7 @@ added in remote
 +// NOTE!!! you must locate your desktop app's binary that you want to use. eventually we'll have URL
 +// from central to download, setup, and run tests on (especially if we want this in CI)
 +const DESKTOP_BINARY_LOCATION =
-+  '/Applications/GitHub Desktop.app/Contents/MacOS/GitHub Desktop' // change this according to your machine
++  '/Applications/PhoenixLink.app/Contents/MacOS/PhoenixLink' // change this according to your machine
 +
 +async function openDesktop() {
 +  const driver = await new webdriver.Builder()
@@ -83,7 +83,7 @@ changed in both
   their  100644 878c5eae6149d86b6e830469f870b352f98b4861 package.json
 @@ -5,7 +5,12 @@
    },
-   "description": "GitHub Desktop build dependencies",
+   "description": "PhoenixLink build dependencies",
    "scripts": {
 +<<<<<<< .our
      "cli": "ts-node --require ./app/test/globals.ts --require ./app/src/cli/dev-commands-global.ts app/src/cli/main.ts",

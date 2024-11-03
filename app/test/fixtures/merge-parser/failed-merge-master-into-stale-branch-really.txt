@@ -40,9 +40,9 @@ merged
 
  Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 
--Simply create an issue on the [GitHub Desktop issue tracker](https://github.com/desktop/desktop/issues)
+-Simply create an issue on the [PhoenixLink issue tracker](https://github.com/desktop/desktop/issues)
 -and fill out the provided [issue template](ISSUE_TEMPLATE.md).
-+Simply create an issue on the [GitHub Desktop issue tracker](https://github.com/desktop/desktop/issues/new?template=bug_report.md)
++Simply create an issue on the [PhoenixLink issue tracker](https://github.com/desktop/desktop/issues/new?template=bug_report.md)
 +and fill out the provided issue template.
 
  The information we are interested in includes:
@@ -59,9 +59,9 @@ merged
 
  Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 
--Simply create an issue on the [GitHub Desktop issue tracker](https://github.com/desktop/desktop/issues)
+-Simply create an issue on the [PhoenixLink issue tracker](https://github.com/desktop/desktop/issues)
 -and provide the following information:
-+Simply create an issue on the [GitHub Desktop issue tracker](https://github.com/desktop/desktop/issues/new?template=feature_request.md)
++Simply create an issue on the [PhoenixLink issue tracker](https://github.com/desktop/desktop/issues/new?template=feature_request.md)
 +and fill out the provided issue template.
 
 -* **Use a clear and descriptive title** for the issue to identify the
@@ -69,16 +69,16 @@ merged
 -* **Provide a step-by-step description of the suggested enhancement** in as
 -  much detail as possible. This additional context helps the maintainers to
 -  understand the enhancement from your perspective
--* **Explain why this enhancement would be useful** to GitHub Desktop users.
+-* **Explain why this enhancement would be useful** to PhoenixLink users.
 +Some additional advice:
 +
 +* **Use a clear and descriptive title** for the feature request
 +* **Provide a step-by-step description of the suggested enhancement**
 +  This additional context helps the maintainers understand the enhancement from
 +  your perspective
-+* **Explain why this enhancement would be useful** to GitHub Desktop users
++* **Explain why this enhancement would be useful** to PhoenixLink users
  * **Include screenshots and animated GIFs** if relevant to help you demonstrate
-   the steps or point out the part of GitHub Desktop which the suggestion is
+   the steps or point out the part of PhoenixLink which the suggestion is
    related to. You can use [this tool](http://www.cockos.com/licecap/) to record
 -  GIFs on macOS and Windows.
 -* **List some other applications where this enhancement exists, if applicable.**
@@ -137,7 +137,7 @@ added in remote
 @@ -0,0 +1,71 @@
 +---
 +name: 🐛 Bug report
-+about: Report a problem encountered while using GitHub Desktop
++about: Report a problem encountered while using PhoenixLink
 +
 +---
 +
@@ -160,9 +160,9 @@ added in remote
 +
 +## Version
 +<!--
-+Place the version of GitHub Desktop you have installed **below** this comment. This is displayed under the 'About GitHub Desktop' menu item. If you are running from source, include the commit by running `git rev-parse HEAD` from the local repository.
++Place the version of PhoenixLink you have installed **below** this comment. This is displayed under the 'About PhoenixLink' menu item. If you are running from source, include the commit by running `git rev-parse HEAD` from the local repository.
 +-->
-+* GitHub Desktop:
++* PhoenixLink:
 +<!--
 +Place the version of your operating system **below** this comment. The operating system you are running on may also help with reproducing the issue. If you are on macOS, launch 'About This Mac' and write down the OS version listed. If you are on Windows, open 'Command Prompt' and attach the output of this command: 'cmd /c ver'
 +-->
@@ -201,8 +201,8 @@ added in remote
 +<!--
 +Attach your log file (You can simply drag your file here to insert it) to this issue. Please make sure the generated link to your log file is **below** this comment section otherwise it will not appear when you submit your issue.
 +
-+macOS logs location: `~/Library/Application Support/GitHub Desktop/logs/*.desktop.production.log`
-+Windows logs location: `%APPDATA%\GitHub Desktop\logs\*.desktop.production.log`
++macOS logs location: `~/Library/Application Support/PhoenixLink/logs/*.desktop.production.log`
++Windows logs location: `%APPDATA%\PhoenixLink\logs\*.desktop.production.log`
 +
 +The log files are organized by date, so see if anything was generated for today's date.
 +-->
@@ -211,7 +211,7 @@ added in remote
 @@ -0,0 +1,17 @@
 +---
 +name: 🎉 Feature request
-+about: Suggest an idea to improve GitHub Desktop
++about: Suggest an idea to improve PhoenixLink
 +---
 +
 +**Is your feature request related to a problem? Please describe.**
@@ -250,9 +250,9 @@ removed in remote
 -
 -## Version
 -<!--
--Place the version of GitHub Desktop you have installed **below** this comment. This is displayed under the 'About GitHub Desktop' menu item. If you are running from source, include the commit by running `git rev-parse HEAD` from the local repository.
+-Place the version of PhoenixLink you have installed **below** this comment. This is displayed under the 'About PhoenixLink' menu item. If you are running from source, include the commit by running `git rev-parse HEAD` from the local repository.
 --->
--* GitHub Desktop:
+-* PhoenixLink:
 -<!--
 -Place the version of your operating system **below** this comment. The operating system you are running on may also help with reproducing the issue. If you are on macOS, launch 'About This Mac' and write down the OS version listed. If you are on Windows, open 'Command Prompt' and attach the output of this command: 'cmd /c ver'
 --->
@@ -291,8 +291,8 @@ removed in remote
 -<!--
 -Attach your log file (You can simply drag your file here to insert it) to this issue. Please make sure the generated link to your log file is **below** this comment section otherwise it will not appear when you submit your issue.
 -
--macOS logs location: `~/Library/Application Support/GitHub Desktop/logs/*.desktop.production.log`
--Windows logs location: `%APPDATA%\GitHub Desktop\logs\*.desktop.production.log`
+-macOS logs location: `~/Library/Application Support/PhoenixLink/logs/*.desktop.production.log`
+-Windows logs location: `%APPDATA%\PhoenixLink\logs\*.desktop.production.log`
 -
 -The log files are organized by date, so see if anything was generated for today's date.
 --->
@@ -365,7 +365,7 @@ merged
 +choose the right template and provide us with enough information to investigate
  further.
 
- ## How can I contribute to GitHub Desktop?
+ ## How can I contribute to PhoenixLink?
 merged
   result 100644 f7a365459e5cee710b2f3156119a6a2b2ff65a7d app/.npmrc
   our    100644 3b80cccbdce21610474a65dcdc28c309d819e278 app/.npmrc
@@ -747,7 +747,7 @@ merged
   result 100644 8a1178e723ae9609c53f3bcc8b0d06771b3de809 app/package.json
   our    100644 0ec1aae7a11244ccf59f08de5e97e1824f63fc85 app/package.json
 @@ -3,7 +3,7 @@
-   "productName": "GitHub Desktop",
+   "productName": "PhoenixLink",
    "bundleID": "com.github.GitHubClient",
    "companyName": "GitHub, Inc.",
 -  "version": "1.1.2-beta1",
@@ -14652,7 +14652,7 @@ added in remote
 +/**
 + * Interface describing a user initiated selection of all list
 + * items (usually by clicking the Edit > Select all menu item in
-+ * the application window). This is highly specific to GitHub Desktop
++ * the application window). This is highly specific to PhoenixLink
 + */
 +export interface ISelectAllSource {
 +  readonly kind: 'select-all'
@@ -15197,7 +15197,7 @@ added in remote
 +}
 +
 +const themes: ReadonlyArray<ISegmentedItem> = [
-+  { title: 'Light', description: 'The default theme of GitHub Desktop' },
++  { title: 'Light', description: 'The default theme of PhoenixLink' },
 +  {
 +    title: 'Dark (beta)',
 +    description:
@@ -16003,13 +16003,13 @@ merged
   result 100644 82f0e853181e3bf4cab092bd28785970c4c492d9 app/src/ui/updates/update-available.tsx
   our    100644 3054daf31cb24e5c2f9804c31515163e7bbaad76 app/src/ui/updates/update-available.tsx
 @@ -25,7 +25,10 @@
-           An updated version of GitHub Desktop is available and will be
+           An updated version of PhoenixLink is available and will be
            installed at the next launch. See{' '}
            <LinkButton uri={this.props.releaseNotesLink}>what's new</LinkButton>{' '}
 -          or <LinkButton onClick={this.updateNow}>restart now</LinkButton>.
 +          or{' '}
 +          <LinkButton onClick={this.updateNow}>
-+            restart GitHub Desktop
++            restart PhoenixLink
 +          </LinkButton>.
          </span>
 
@@ -19992,7 +19992,7 @@ removed in remote
 -  target: 'electron-renderer',
 -  plugins: [
 -    new HtmlWebpackPlugin({
--      title: 'GitHub Desktop',
+-      title: 'PhoenixLink',
 -      filename: 'crash.html',
 -      chunks: ['crash'],
 -    }),
@@ -20197,7 +20197,7 @@ added in remote
 +  target: 'electron-renderer',
 +  plugins: [
 +    new HtmlWebpackPlugin({
-+      title: 'GitHub Desktop',
++      title: 'PhoenixLink',
 +      filename: 'crash.html',
 +      chunks: ['crash'],
 +    }),
@@ -21294,10 +21294,10 @@ merged
  ```
 
 -There are also [additional resources](tooling.md) to
--configure your favorite editor to work nicely with the GitHub Desktop
+-configure your favorite editor to work nicely with the PhoenixLink
 -repository.
 +There are also [additional resources](tooling.md) to configure your favorite
-+editor to work nicely with the GitHub Desktop repository.
++editor to work nicely with the PhoenixLink repository.
 
  ## Building Desktop
 
@@ -21773,7 +21773,7 @@ merged
 @@ -1,7 +1,7 @@
  # "Open External Editor" integration
 
- GitHub Desktop supports the user choosing an external program to open their
+ PhoenixLink supports the user choosing an external program to open their
 -local repositories, and this is available from the top-level **Repository** menu
 +local repositories, and this is available from the top-level **Repository** menu
  or when right-clicking on a repository in the sidebar.
@@ -21823,7 +21823,7 @@ merged
  **Opting-in for preview features**
 -1. Set the `GITHUB_DESKTOP_PREVIEW_FEATURES` environment variable to any value
 +1. Set the `GITHUB_DESKTOP_PREVIEW_FEATURES` environment variable to `1`
- 1. Restart GitHub Desktop
+ 1. Restart PhoenixLink
 
 -Don't have that environment variable?
 +Don't have that environment variable?
@@ -21956,7 +21956,7 @@ changed in both
   their  100644 461f60af798d32097510dcd519c5cdd4b860771e package.json
 @@ -5,11 +5,12 @@
    },
-   "description": "GitHub Desktop build dependencies",
+   "description": "PhoenixLink build dependencies",
    "scripts": {
 -    "cli": "ts-node --require ./app/test/globals.ts --require ./app/src/cli/dev-commands-global.js app/src/cli/main.ts",
 -    "test:integration": "cross-env TEST_ENV=1 ELECTRON_NO_ATTACH_CONSOLE=1 xvfb-maybe mocha -t 30000 --require ts-node/register app/test/integration/*.ts",
@@ -22319,7 +22319,7 @@ merged
 +  )
 +
 +  const licenseText = fs.readFileSync(chooseALicenseLicense, 'utf8')
-+  const licenseWithHeader = `GitHub Desktop uses licensing information provided by choosealicense.com.
++  const licenseWithHeader = `PhoenixLink uses licensing information provided by choosealicense.com.
 +
 +The bundle in available-licenses.json has been generated from a source list provided at https://github.com/github/choosealicense.com, which is made available under the below license:
 +

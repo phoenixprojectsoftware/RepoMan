@@ -2,7 +2,7 @@ merged
   result 100644 b5349c7c5e60dd396af3a4977b0684bcd69d7cfe app/package.json
   our    100644 530138f765a7c89ac3e0b31cc78047926364323a app/package.json
 @@ -3,7 +3,7 @@
-   "productName": "GitHub Desktop",
+   "productName": "PhoenixLink",
    "bundleID": "com.github.GitHubClient",
    "companyName": "GitHub, Inc.",
 -  "version": "1.1.2-beta6",

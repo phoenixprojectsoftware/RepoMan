@@ -3,7 +3,7 @@ changed in both
   our    100644 4ec686d8ad22d3aea1ebe4bddd16f4a7447c3acd app/package.json
   their  100644 e9d531afe0249f4443fe4f49b08c15d54c092af7 app/package.json
 @@ -3,7 +3,11 @@
-   "productName": "GitHub Desktop",
+   "productName": "PhoenixLink",
    "bundleID": "com.github.GitHubClient",
    "companyName": "GitHub, Inc.",
 +<<<<<<< .our

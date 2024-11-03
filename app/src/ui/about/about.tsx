@@ -292,7 +292,7 @@ export class About extends React.Component<IAboutProps, IAboutState> {
           <Row className="logo">
             <img
               src={DesktopLogo}
-              alt="GitHub Desktop"
+              alt="PhoenixLink"
               width="64"
               height="64"
             />

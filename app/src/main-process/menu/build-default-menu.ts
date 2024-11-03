@@ -59,10 +59,10 @@ export function buildDefaultMenu({
 
   if (__DARWIN__) {
     template.push({
-      label: 'GitHub Desktop',
+      label: 'PhoenixLink',
       submenu: [
         {
-          label: 'About GitHub Desktop',
+          label: 'About PhoenixLink',
           click: emit('show-about'),
           id: 'about',
         },
@@ -661,7 +661,7 @@ export function buildDefaultMenu({
         ...helpItems,
         separator,
         {
-          label: '&About GitHub Desktop',
+          label: '&About PhoenixLink',
           click: emit('show-about'),
           id: 'about',
         },
