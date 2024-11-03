@@ -133,7 +133,7 @@ changed in both
 +  // color is being used. Note that these variables should _never_ be
 +  // used outside of this scope.
 +  $darkBlue: #005CC5;
-+  $blue: #0366d6;
++  $purple: #0366d6;
 +  $yellow: #ffd33d;
 +  $darkYellow: #745d00;
 +  $lightYellow: #fff5b1;

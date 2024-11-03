@@ -36,7 +36,7 @@ merged
 @@ -2,7 +2,26 @@
  
  CONTENTS="$(dirname "$(dirname "$(dirname "$(dirname "$(realpath "$0")")")")")"
- ELECTRON="$CONTENTS/GitHubDesktop.exe"
+ ELECTRON="$CONTENTS/PhoenixLink.exe"
 -CLI="$CONTENTS/Resources/app/cli.js"
 +
 +if grep -q Microsoft /proc/version; then

@@ -362,7 +362,7 @@ changed in both
   our    100644 6c89a529c5a8dbfefb127f171468af9ae5651141 app/styles/_variables.scss
   their  100644 25bf8afb64f2143ab89c337ab59bea34596eb1f2 app/styles/_variables.scss
 @@ -18,8 +18,26 @@
-   --color-renamed: $blue;
+   --color-renamed: $purple;
    --color-conflicted: $orange;
  
 +<<<<<<< .our
@@ -375,7 +375,7 @@ changed in both
 +  // in variables. It also makes it easier to read and understand what
 +  // color is being used. Note that these variables should _never_ be
 +  // used outside of this scope.
-+  $blue: #4ca6eb;
++  $purple: #4ca6eb;
 +  $darkGray: #5f717f;
 +  $orange: #c9510c;
 +  $gray: #C6CACC;
@@ -389,8 +389,8 @@ changed in both
  
    --button-height: 25px;
 @@ -33,11 +51,17 @@
-   --link-button-color: $blue;
-   --link-button-hover-color: $blue-600;
+   --link-button-color: $purple;
+   --link-button-hover-color: $purple-600;
  
 +<<<<<<< .our
    --secondary-button-background: $gray-000;
@@ -415,7 +415,7 @@ changed in both
 +=======
 +  --box-border-color: $lightGray;
 +>>>>>>> .their
-   --box-border-accent-color: $blue;
+   --box-border-accent-color: $purple;
  
    /**
 changed in both

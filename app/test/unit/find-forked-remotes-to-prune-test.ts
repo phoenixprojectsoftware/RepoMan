@@ -50,9 +50,9 @@ describe('findForkedRemotesToPrune', () => {
   const TestUserName = 'sergiou87'
 
   const OriginRemote = 'origin'
-  const NonGitHubDesktopRemote = 'non-github-desktop-remote'
-  const GitHubDesktopRemoteWithLocalBranch = 'github-desktop-niik'
-  const GitHubDesktopRemoteWithPullRequest = `github-desktop-${TestUserName}`
+  const NonPhoenixLinkRemote = 'non-github-desktop-remote'
+  const PhoenixLinkRemoteWithLocalBranch = 'github-desktop-niik'
+  const PhoenixLinkRemoteWithPullRequest = `github-desktop-${TestUserName}`
 
   const remotes = [
     {
@@ -60,15 +60,15 @@ describe('findForkedRemotesToPrune', () => {
       url: 'https://github.com/desktop/desktop.git',
     },
     {
-      name: NonGitHubDesktopRemote,
+      name: NonPhoenixLinkRemote,
       url: 'https://github.com/fakeuser/desktop.git',
     },
     {
-      name: GitHubDesktopRemoteWithLocalBranch,
+      name: PhoenixLinkRemoteWithLocalBranch,
       url: 'https://github.com/niik/desktop.git',
     },
     {
-      name: GitHubDesktopRemoteWithPullRequest,
+      name: PhoenixLinkRemoteWithPullRequest,
       url: `https://github.com/${TestUserName}/desktop.git`,
     },
   ]
@@ -83,21 +83,21 @@ describe('findForkedRemotesToPrune', () => {
     const names = getNamesFromRemotes(remotesToPrune)
     expect(names).not.toBeEmpty()
     expect(names).not.toContain(OriginRemote)
-    expect(names).not.toContain(NonGitHubDesktopRemote)
+    expect(names).not.toContain(NonPhoenixLinkRemote)
   })
 
   it('never prunes remotes with local branches', () => {
     const allBranches = [
       createSampleBranch(
         'app-store-refactor',
-        `${GitHubDesktopRemoteWithLocalBranch}/app-store-refactor`
+        `${PhoenixLinkRemoteWithLocalBranch}/app-store-refactor`
       ),
     ]
 
     const remotesToPrune = findForkedRemotesToPrune(remotes, [], allBranches)
 
     expect(getNamesFromRemotes(remotesToPrune)).not.toContain(
-      GitHubDesktopRemoteWithLocalBranch
+      PhoenixLinkRemoteWithLocalBranch
     )
   })
 
@@ -113,7 +113,7 @@ describe('findForkedRemotesToPrune', () => {
     const remotesToPrune = findForkedRemotesToPrune(remotes, openPRs, [])
 
     expect(getNamesFromRemotes(remotesToPrune)).not.toContain(
-      GitHubDesktopRemoteWithPullRequest
+      PhoenixLinkRemoteWithPullRequest
     )
   })
 
@@ -121,7 +121,7 @@ describe('findForkedRemotesToPrune', () => {
     const remotesToPrune = findForkedRemotesToPrune(remotes, [], [])
 
     const remoteNames = getNamesFromRemotes(remotesToPrune)
-    expect(remoteNames).toContain(GitHubDesktopRemoteWithPullRequest)
-    expect(remoteNames).toContain(GitHubDesktopRemoteWithLocalBranch)
+    expect(remoteNames).toContain(PhoenixLinkRemoteWithPullRequest)
+    expect(remoteNames).toContain(PhoenixLinkRemoteWithLocalBranch)
   })
 })

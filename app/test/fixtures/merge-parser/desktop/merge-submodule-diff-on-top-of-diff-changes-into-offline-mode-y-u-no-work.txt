@@ -1081,7 +1081,7 @@ changed in both
   our    100644 6c89a529c5a8dbfefb127f171468af9ae5651141 app/styles/_variables.scss
   their  100644 a11f9adbcecf5e114799353a54e7a7339e18128b app/styles/_variables.scss
 @@ -333,6 +333,7 @@
-   --diff-hover-gutter-color: $blue-400;
+   --diff-hover-gutter-color: $purple-400;
    --diff-hover-text-color: var(--background-color);
  
 +<<<<<<< .our

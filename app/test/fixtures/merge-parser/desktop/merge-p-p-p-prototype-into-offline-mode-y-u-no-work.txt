@@ -160,8 +160,8 @@ changed in both
   their  100644 2e3ff0d12a5fee7774e509740931b44d519556ce app/styles/_variables.scss
 @@ -381,7 +381,11 @@
    /** Diverging notification banner colors */
-   --notification-banner-background: $blue-000;
-   --notification-banner-border-color: $blue-200;
+   --notification-banner-background: $purple-000;
+   --notification-banner-border-color: $purple-200;
 +<<<<<<< .our
    --notification-ref-background: rgba(255, 255, 255, 0.75);
 +=======

@@ -3,16 +3,16 @@ changed in both
   our    100644 6c89a529c5a8dbfefb127f171468af9ae5651141 app/styles/_variables.scss
   their  100644 d6df99e979ae35224a6767759f74dee365b15eba app/styles/_variables.scss
 @@ -378,6 +378,10 @@
-   --path-segment-background: $blue-000;
+   --path-segment-background: $purple-000;
    --path-segment-padding: var(--spacing-third);
  
 +  /** Co-author colors **/
-+  --handle-background: $blue-000;
-+  --handle-border-color: $blue-200;
++  --handle-background: $purple-000;
++  --handle-border-color: $purple-200;
 +
    /** Diverging notification banner colors */
-   --notification-banner-background: $blue-000;
-   --notification-banner-border-color: $blue-200;
+   --notification-banner-background: $purple-000;
+   --notification-banner-border-color: $purple-200;
 changed in both
   base   100644 43d39d75f19c242c1630b9ab243f18fcc733c7e5 app/styles/themes/_dark.scss
   our    100644 663d5cb65e7a6b69154193384801a8c63234744f app/styles/themes/_dark.scss
@@ -22,8 +22,8 @@ changed in both
    --path-segment-background: $gray-700;
  
 +  /** Co-author colors **/
-+  --handle-background: rgba($blue-700, .75);
-+  --handle-border-color: rgba($blue-600, .75);
++  --handle-background: rgba($purple-700, .75);
++  --handle-border-color: rgba($purple-600, .75);
 +
    .blankslate-image {
      filter: #{'invert()'} grayscale(1) brightness(8) contrast(0.6);

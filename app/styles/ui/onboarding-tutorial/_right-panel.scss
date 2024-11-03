@@ -70,8 +70,8 @@
     }
     .blue-circle {
       @extend %circle;
-      background-color: $blue;
-      border-color: $blue;
+      background-color: $purple;
+      border-color: $purple;
       color: var(--badge-icon-color);
     }
     .empty-circle {
