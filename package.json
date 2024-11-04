@@ -41,8 +41,8 @@
     "validate-changelog": "ts-node -P script/tsconfig.json script/validate-changelog.ts"
   },
   "author": {
-    "name": "GitHub, Inc.",
-    "email": "opensource+desktop@github.com",
+    "name": "THe Phoenix Project Software LLC",
+    "email": "info@phoenixproject.cc",
     "url": "https://desktop.github.com/"
   },
   "license": "MIT",
@@ -152,6 +152,7 @@
     "@types/webpack-bundle-analyzer": "^4.7.0",
     "@types/webpack-hot-middleware": "^2.25.9",
     "electron": "32.1.2",
+    "electron-builder": "^25.1.8",
     "electron-packager": "^17.1.1",
     "electron-winstaller": "^5.0.0",
     "eslint-plugin-github": "^4.10.1",
